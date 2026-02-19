@@ -1,0 +1,139 @@
+/* PAGE BASE */
+.se-page {
+  font-family: 'Poppins', sans-serif;
+  background: #fffaf0;  
+  color: #6b4f3c; 
+  padding-bottom: 80px;
+}
+
+/* SPLIT HERO + INTRO */
+.se-split {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 0;
+}
+
+.se-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.se-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.se-right {
+  flex: 1;
+  min-width: 320px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e5d8c4; 
+  border-radius: 0 16px 16px 0;
+}
+
+.se-right h1 {
+  font-size: 3rem;
+  margin-bottom: 24px;
+ color: #4a1717;
+}
+
+.se-intro p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #4a1717;
+}
+
+/* CONTENT SECTION */
+.se-content {
+  max-width: 980px;
+  margin: 90px auto 0;
+  padding: 0 20px;
+}
+
+.se-block {
+  padding: 38px 28px;
+  margin-bottom: 45px;
+  border-radius: 14px;
+  background: #fffaf0;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+}
+
+/* ALTERNATE BLOCK */
+.se-block.alt {
+  background: #e5d8c4;
+}
+
+/* HEADINGS */
+.se-block h2 {
+  font-size: 1.9rem;
+  margin-bottom: 16px;
+  color: #4a1717;
+  border-left: 5px solid #4a1717;
+  padding-left: 14px;
+}
+
+/* TEXT */
+.se-block p,
+.se-block ul {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #6b4f3c;
+}
+
+.se-block ul {
+  padding-left: 22px;
+}
+
+.se-block ul li {
+  margin-bottom: 10px;
+}
+
+/* WARM CLOSING */
+.se-ending {
+  max-width: 860px;
+  margin: 110px auto 0;
+  background: #e5d8c4;
+  border-radius: 18px;
+  padding: 70px 30px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.se-closing-icon {
+  font-size: 2.4rem;
+  color: #4a1717;
+  margin-bottom: 18px;
+}
+
+.se-ending p {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  font-style: italic;
+  color: #6b4f3c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .se-split {
+    flex-direction: column;
+  }
+
+  .se-right {
+    padding: 30px 22px;
+  }
+
+  .se-block {
+    padding: 26px 22px;
+  }
+
+  .se-ending {
+    padding: 45px 22px;
+  }
+}

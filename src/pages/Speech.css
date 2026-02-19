@@ -1,0 +1,134 @@
+/* PAGE BASE */
+.therapy-page {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO SECTION WITH BACKGROUND IMAGE & GRADIENT */
+.therapy-hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("/public/images/language.jpg") center/cover no-repeat;
+  padding: 120px 20px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.therapy-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff8ee; 
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.therapy-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  line-height: 1.6;
+  color: #f5efe6; 
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+/* SPLIT SECTIONS */
+.therapy-split {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/* SECTION BASE */
+.therapy-section {
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color: #222;
+}
+
+/* LEFT COLUMN */
+.left-column {
+   background-color: #f8fdeb; 
+  padding-left: 40px;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  background-color: #e8f3f9; 
+  padding-right: 40px;
+  text-align: left;
+}
+
+/* HEADING & PARAGRAPH */
+.therapy-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #4a1717;
+  line-height: 1.3;
+}
+
+.therapy-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* FULL-WIDTH SECTION FOR TONGUE TIE */
+.full-width-section {
+  width: 100%;
+  background-color: #fff7f2; 
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.full-width-section .therapy-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.full-width-section h2 {
+  font-size: 1.8rem;
+  color: #4a1717; 
+  margin-bottom: 15px;
+}
+
+.full-width-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 768px) {
+  .therapy-split {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .therapy-section {
+    width: 50%;
+  }
+
+  .full-width-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .therapy-section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .full-width-section {
+    padding: 30px 20px;
+  }
+}

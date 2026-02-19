@@ -1,0 +1,143 @@
+.physio-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f5e8;
+  color: #2a2a2a;
+}
+
+/* HERO */
+.physio-hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("/public/images/physiotherapy-hero.jpg") center 39%/cover no-repeat;
+  padding: 160px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.physio-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #fff8ee;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.physio-hero p {
+  font-size: 1.2rem;
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #f5efe6;
+}
+
+/* CONTENT */
+.physio-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+/* INTRO */
+.physio-intro {
+  max-width: 900px;
+  margin: 0 auto 70px;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  text-align: center;
+  color: #444;
+}
+
+.physio-intro::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #f1c27d;
+  margin: 0 auto 24px;
+  border-radius: 2px;
+}
+
+/* SECTIONS */
+.physio-section {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  border-left: 6px solid #f1c27d;
+}
+
+.physio-section.alt {
+  background-color: #f9fbfd;
+  border-left-color: #9fc5e8;
+}
+
+.physio-section h2 {
+  font-size: 1.8rem;
+  color: #4a1717;
+  margin-bottom: 16px;
+}
+
+.physio-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+/* LIST */
+.physio-list {
+  margin: 16px 0 20px 20px;
+  line-height: 1.8;
+}
+
+.physio-list li {
+  font-size: 1.05rem;
+}
+
+/* CLOSING */
+.physio-closing {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.physio-closing-card {
+  max-width: 850px;
+  background: #ffffff;
+  padding: 60px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+  border-top: 6px solid #f1c27d;
+}
+
+.physio-closing-card h3 {
+  font-size: 1.8rem;
+  color: #4a1717;
+  margin-bottom: 20px;
+}
+
+.physio-closing-card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .physio-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .physio-content {
+    padding: 50px 16px;
+  }
+
+  .physio-section,
+  .physio-intro,
+  .physio-closing {
+    padding: 28px;
+  }
+}

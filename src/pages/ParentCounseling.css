@@ -1,0 +1,158 @@
+/* PAGE BASE */
+.pc-page {
+  font-family: 'Poppins', sans-serif;
+  background: #e7f3f1;
+  color: #2b2b2b;
+  padding-bottom: 80px; 
+  scroll-behavior: smooth;
+}
+
+/* HERO */
+.pc-hero {
+  background: linear-gradient(
+      rgba(0,0,0,0.35),
+      rgba(0,0,0,0.35)
+    ),
+    url("/public/images/parent-counseling-hero.jpg") center 30%/cover no-repeat;
+  padding: 170px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pc-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.pc-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #fff8ee; 
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.pc-hero p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  color: #f5efe6; 
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* FEATURE INTRO */
+.pc-feature {
+  background: linear-gradient(
+    180deg,
+    #edf7f6 0%,
+    #f5fbfa 100%
+  );
+  padding: 80px 20px;
+  border-radius: 12px;
+  margin: 60px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.pc-feature-inner {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #4f2c26;
+}
+
+/* CONTENT FLOW */
+.pc-content {
+  max-width: 950px;
+  margin: 90px auto 0;
+  padding: 0 20px;
+}
+
+.pc-block {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 70px;
+  align-items: flex-start;
+}
+
+.pc-index {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #4a1717;
+  opacity: 0.25;
+  min-width: 50px;
+  flex-shrink: 0;
+}
+
+.pc-block h2 {
+  font-size: 1.8rem;
+  margin-bottom: 14px;
+  color: #4a1717;
+}
+
+.pc-block p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+/* CLOSING */
+.pc-closing {
+  max-width: 880px;
+  margin: 120px auto 0;
+  padding: 80px 20px;
+  background: linear-gradient(
+    180deg,
+    #edf7f6 0%,
+    #f5fbfa 100%
+  );
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.pc-closing-inner {
+  text-align: center;
+}
+
+.pc-closing p {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #2f5f5a; 
+  font-style: italic;
+  position: relative;
+  padding-left: 32px;
+}
+
+.pc-closing p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 4px;
+  height: 85%;
+  background: linear-gradient(
+    to bottom,
+    #f2c94c,
+    #f2994a
+  );
+  border-radius: 4px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pc-hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .pc-block {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .pc-index {
+    font-size: 1.6rem;
+  }
+}

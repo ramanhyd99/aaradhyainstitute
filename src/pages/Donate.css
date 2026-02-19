@@ -1,0 +1,213 @@
+.donate-page {
+   background-color: #f8e1b8;
+  padding: 3rem 1rem;
+  color: #333; 
+}
+
+/* ===== Top split: left image + right content ===== */
+.donate-top-split {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Left: image */
+.donate-top-image {
+  flex: 0 0 45%;
+  max-width: 45%;
+  min-width: 250px;
+  overflow: hidden;
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  height: 300px;
+}
+
+.donate-top-image.loaded {
+  opacity: 1;
+}
+
+.donate-top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Right: content */
+.donate-top-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.donate-top-content h1 {
+  font-size: 2.5rem;
+  color: #d35400; 
+  margin-bottom: 1rem;
+}
+
+.donate-top-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #3c3c3c;
+}
+
+/* ===== Bottom full-width content ===== */
+.donate-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Sections */
+.donate-section {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.donate-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Donate cards */
+.donate-card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #fffaf3; 
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.35s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect */
+.donate-card:hover {
+  background-color: #fff6eb;
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon styling (img or react-icons svg) */
+.donate-card img,
+.donate-card svg {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 0.75rem;
+}
+
+/* Title */
+.donate-card h3 {
+  font-size: 1.3rem;
+  margin: 0.6rem 0;
+  color: #8a4b1e;
+}
+
+/* Text */
+.donate-card p {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #3c3c3c;
+}
+
+
+.donate-section ul {
+  margin-left: 1.5rem;
+  line-height: 1.6;
+  color: #3c3c3c;
+}
+
+/* ===== Combined Bank + UPI Card ===== */
+.donate-payment-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #fff9f0; 
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.payment-left,
+.payment-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.payment-left h2,
+.payment-right h2 {
+  font-size: 1.5rem; 
+  color: #d35400; 
+  margin-bottom: 1.2rem;
+  border-bottom: 2px solid #d35400;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-left p,
+.payment-right p {
+  font-size: 1rem; 
+  line-height: 1.6;
+  color: #333;
+  margin: 0.6rem 0;
+  font-weight: 500;
+}
+
+.payment-left p strong {
+  font-size: 1.3rem; 
+}
+
+.payment-right img {
+  width: 250px;   
+  height: 280px;
+  border-radius: 12px;
+  border: 2px solid #d35400;
+  margin-top: 1rem;
+  display: block;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .donate-top-split {
+    flex-direction: column;
+  }
+
+  .donate-top-image,
+  .donate-top-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .donate-top-image {
+    height: 250px;
+  }
+   .payment-left,
+  .payment-right {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .payment-right img {
+    margin: 1rem auto 0 auto;
+    width: 200px;   
+    height: 200px;
+  }
+
+  .payment-left h2,
+  .payment-right h2 {
+    font-size: 1.6rem; 
+  }
+
+  .payment-left p,
+  .payment-right p {
+    font-size: 0.9rem; 
+  }
+}
+

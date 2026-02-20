@@ -1,6 +1,7 @@
 import React from "react";
 import usePageTitle from "../hooks/usePageTitle";
 import "./Speech.css";
+import BookNow from "../components/BookNow";
 
 export default function SpeechLanguageTherapy() {
    usePageTitle("Speech & Language Therapy | Aaradhya Institute");
@@ -69,6 +70,7 @@ export default function SpeechLanguageTherapy() {
             </section>
           );
         })}
+        <BookNow/>
       </div>
     </div>
   );

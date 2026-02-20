@@ -19,11 +19,14 @@ import Donate from "./pages/Donate";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Policies from "./pages/Policies";
+import ScrollToTop from "./components/ScrollToTop";
+
 
 
 function App() {
   return (
     <>
+     <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

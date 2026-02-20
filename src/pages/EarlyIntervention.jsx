@@ -2,6 +2,7 @@ import React from "react";
 import { FaSmile } from "react-icons/fa"; 
 import usePageTitle from "../hooks/usePageTitle";
 import "./EarlyIntervention.css";
+import BookNow from "../components/BookNow";
 
 export default function EarlyIntervention() {
   usePageTitle("Early Intervention | Aaradhya Institute");
@@ -73,6 +74,8 @@ export default function EarlyIntervention() {
           Early intervention can change a child’s path. With support and understanding, children can thrive and reach their potential.
         </p>
       </section>
+
+       <BookNow/>
 
     </div>
   );

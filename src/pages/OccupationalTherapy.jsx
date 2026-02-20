@@ -1,6 +1,7 @@
 import React from "react";
 import usePageTitle from "../hooks/usePageTitle";
 import "./OccupationalTherapy.css";
+import BookNow from "../components/BookNow";
 
 export default function OccupationalTherapy() {
    usePageTitle("Occupational Therapy | Aaradhya Institute");
@@ -84,7 +85,7 @@ export default function OccupationalTherapy() {
        </div>
        </div>
 
-
+ <BookNow />
       </section>
     </div>
   );

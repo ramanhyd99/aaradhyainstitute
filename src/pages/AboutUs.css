@@ -3,53 +3,49 @@
   font-family: 'Poppins', sans-serif;
   background: var(--pista);
   color: #4a1717;
-  margin: 0;
-  padding: 0;
   line-height: 1.7;
-}
-
-/* HERO SECTION */
-.about-hero {
-  background: url("/public/images/about.jpg") center 35%/cover no-repeat;
-  padding: 120px 20px;
-  text-align: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-hero h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-}
-
-.about-hero p { 
-  font-size: 1.2rem;
-  max-width: 700px;
-  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  padding-top: .001rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 /* SPLIT SECTIONS */
 .about-split {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
-  gap: 40px;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 20px; /* 👈 add this */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .about-split.reverse {
   flex-direction: column-reverse;
 }
 
+.about-title {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  color: #428b48;
+}
+
+
+/* IMAGE */
 .about-img {
   flex: 1;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
   transition: all 0.6s ease;
 }
 
@@ -60,34 +56,30 @@
 
 .about-img img {
   width: 100%;
-  height: 480px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 18px;
+  border-radius: 16px;
 }
 
-/* CONTENT BLOCKS */
+/* CONTENT */
 .about-content {
   flex: 1;
-  padding: 20px;
 }
 
 .about-content h2 {
   font-size: 2rem;
   margin-bottom: 16px;
-  color: #4a1717;
 }
 
 .about-content h3 {
-  font-size: 1.4rem;
-  margin-top: 24px;
-  margin-bottom: 12px;
-  color: #4a1717;
+  font-size: 1.3rem;
+  margin-top: 22px;
+  margin-bottom: 10px;
 }
 
 .about-content p {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   font-size: 1.05rem;
-  color: #4a1717;
 }
 
 .about-content ul {
@@ -96,77 +88,65 @@
 }
 
 .about-content ul li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
-/* PHYSIOTHERAPY & GROUP THERAPY */
-.about-block {
-  background: #e5f0f8; 
-  padding: 60px 20px;
-  border-radius: 16px;
-  margin: 40px 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
-
-.about-block h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #4a1717;
-}
-
-.about-block p {
-  font-size: 1.05rem;
-  margin-bottom: 16px;
-  color: #4a1717;
-}
-
-/* ENDING SECTION */
+/* ENDING */
 .about-ending {
-  padding: 80px 20px;
-  text-align: center;
-  background: #e5f0f8; 
-  color: #4a1717;
-  border-radius: 16px;
   max-width: 900px;
-  margin: 60px auto 60px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  margin: 80px auto;
+  padding: 60px 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  font-size: 1.15rem;
 }
 
-/* RESPONSIVE DESIGN */
-@media (min-width: 768px) {
+
+/* DESKTOP */
+@media (min-width: 992px) {
   .about-split {
     flex-direction: row;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
   }
 
   .about-split.reverse {
     flex-direction: row-reverse;
   }
 
-  .about-img {
-    min-height: 400px;
+  .about-img img {
+    height: 320px;
   }
 
-  .about-content {
-    padding: 40px;
+  .about-content h2 {
+    font-size: 2.2rem;
   }
 }
 
-@media (max-width: 767px) {
-  .about-hero {
-    padding: 80px 20px;
+/* MOBILE */
+@media (max-width: 768px) {
+  .about-split {
+    margin: 50px 20px;
+    padding: 25px;
   }
 
-  .about-content {
-    padding: 20px 10px;
+  .about-img img {
+    height: 220px;
   }
 
-  .about-block {
-    padding: 40px 20px;
+  .about-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.1rem;
   }
 
   .about-ending {
-    padding: 60px 20px;
+    margin: 50px 20px;
+    padding: 40px 20px;
   }
 }

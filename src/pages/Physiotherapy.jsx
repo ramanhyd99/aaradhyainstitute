@@ -1,6 +1,7 @@
 import React from "react";
 import usePageTitle from "../hooks/usePageTitle";
 import "./Physiotherapy.css";
+import BookNow from "../components/BookNow";
 
 export default function Physiotherapy() {
    usePageTitle("Physiotherapy | Aaradhya Institute");
@@ -116,7 +117,7 @@ export default function Physiotherapy() {
   </div>
 </div>
 
-
+      <BookNow />
       </section>
     </div>
   );

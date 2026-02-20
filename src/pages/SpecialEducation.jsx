@@ -2,6 +2,7 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import usePageTitle from "../hooks/usePageTitle";
 import "./SpecialEducation.css";
+import BookNow from "../components/BookNow";
 
 export default function SpecialEducation() {
    usePageTitle("Special Education | Aaradhya Institute");
@@ -64,6 +65,7 @@ export default function SpecialEducation() {
           </p>
         </div>
       </div>
+       <BookNow />
     </div>
   );
 }

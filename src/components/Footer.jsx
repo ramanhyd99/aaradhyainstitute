@@ -101,17 +101,18 @@ export default function Footer() {
     
            <p>
             <strong>Email:</strong>{" "}
-            <a href="mailto:aaradhyafoundation@gmail.com"> aaradhyafoundation@gmail.com</a>
+            <a href="mailto:aaradhyafoundation2023@gmail.com">aaradhyafoundation2023@gmail.com</a><br />
+            <a href="mailto:info@aaradhyainstitute.com">info@aaradhyainstitute.com</a>
           </p>
 
           <h4>Follow Us</h4>
-          <div className="social-icons">
+          <div className="footer-social">
             <a
               href="https://www.instagram.com/aaradhyafoundation2023/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram style={{ color: "#C13584", fontSize: "2.5rem" }} />
+            <FaInstagram style={{ color: "#C13584", fontSize: "2rem" }} />
             </a>
 
             <a
@@ -119,7 +120,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin style={{ color: "#0A66C2", fontSize: "2.5rem" }} />
+            <FaLinkedin style={{ color: "#0A66C2", fontSize: "2rem" }} />
             </a>
 
             <a
@@ -127,7 +128,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp style={{ color: "#25D366", fontSize: "2.5rem" }} />
+              <FaWhatsapp style={{ color: "#25D366", fontSize: "2rem" }} />
             </a>
           </div>
         </div>

@@ -10,12 +10,19 @@
   font-family: 'Inter', sans-serif;
   background-color: var(--pista);
   color: #333;
+   padding-bottom: 1rem;
+   padding-top: 2rem;
+  margin-bottom: 0;
 }
 
 /* Hero Banner */
 .contact-hero {
   background: url("/public/images/contact.jpg") center/cover no-repeat;
-  padding: 120px 20px;
+  min-height: 320px;   /* controlled height */
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   position: relative;
   color: #fff8ee;
@@ -119,4 +126,13 @@
   .contact-split { flex-direction: column; }
   .contact-hero { padding: 80px 20px; }
   .contact-hero h1 { font-size: 2rem; }
+
+  .contact-hero {
+    padding: 60px 20px;
+    min-height: 220px;
+  }
+
+  .contact-hero h1 {
+    font-size: 1.8rem;
+  }
 }

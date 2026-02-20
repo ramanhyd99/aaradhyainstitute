@@ -3,6 +3,7 @@ import { GiPlantWatering } from "react-icons/gi";
 import { FaHandsHelping } from "react-icons/fa";
 import usePageTitle from "../hooks/usePageTitle";
 import "./BehaviorManagement.css";
+import BookNow from "../components/BookNow";
 
 export default function BehaviorManagement() {
   usePageTitle("Behavior Management | Aaradhya Institute");
@@ -115,6 +116,7 @@ export default function BehaviorManagement() {
      </p>
    </div>
  </section>
+       <BookNow/>
    </div>
   );
 }

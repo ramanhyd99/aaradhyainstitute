@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { 
+  FaBars, 
+  FaTimes, 
+  FaWhatsapp, 
+  FaInstagram, 
+  FaLinkedin, 
+  FaPhone, 
+  FaMapMarkerAlt 
+} from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -12,49 +20,70 @@ const Navbar = () => {
 
   return (
     <>
-      {/* TOP ANNOUNCEMENT BAR */}
+      {/* TOP BAR */}
       <div className="top-bar">
-        Are you ready to make a difference in your community?
-        <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"><span> Join the Aaradhya Institute team today!</span></a>
+        <div className="top-inner">
+          <span>Come join us:</span>
+
+          <div className="footer-social">
+            <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp />
+            </a>
+            <a href="https://www.instagram.com/aaradhyafoundation2023/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin />
+            </a>
+            <a href="tel:+919963159347">
+              <FaPhone />
+            </a>
+            <a href="https://maps.app.goo.gl/ymMbTgKTWj8Cqn377" target="_blank" rel="noopener noreferrer">
+              <FaMapMarkerAlt />
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* NAVBAR */}
       <nav className="navbar">
         <div className="nav-inner">
           <Link to="/" className="logo">
-            <span className="logo-a">Aaradhya</span>{" "}
-            <span className="logo-i">Institute</span>
+            Aaradhya Institute
           </Link>
 
-          {/* MOBILE HAMBURGER */}
           <div className="mobile-menu-icon" onClick={toggleMenu}>
             {menuOpen ? <FaTimes /> : <FaBars />}
           </div>
 
-          {/* NAV LINKS */}
           <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
             <li><Link to="/home" onClick={() => setMenuOpen(false)}>Home</Link></li>
             <li><Link to="/about-us" onClick={() => setMenuOpen(false)}>About Us</Link></li>
 
-            {/* SERVICES DROPDOWN */}
             <li className={`nav-dropdown ${dropdownOpen ? "open" : ""}`}>
               <div className="dropdown-title" onClick={toggleDropdown}>
                 Services
               </div>
               <ul className="fade-dropdown">
-                <li><Link to="/services/speech-language-therapy" onClick={() => setMenuOpen(false)}>Speech & Language Therapy</Link></li>
-                <li><Link to="/services/occupational-therapy" onClick={() => setMenuOpen(false)}>Occupational Therapy</Link></li>
-                <li><Link to="/services/physiotherapy"  onClick={() => setMenuOpen(false)} >Physiotherapy</Link></li>
-                <li><Link to="/services/behavior-management" onClick={() => setMenuOpen(false)}>Behavior Management</Link></li>
-                <li><Link to="/services/early-intervention" onClick={() => setMenuOpen(false)}>Early Intervention</Link></li>
-                <li><Link to="/services/special-education" onClick={() => setMenuOpen(false)}>Special Education</Link></li>
-                <li><Link to="/services/parent-counseling" onClick={() => setMenuOpen(false)}>Parent Counseling</Link></li>
+                <li><Link to="/services/speech-language-therapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Speech & Language Therapy</Link></li>
+                <li><Link to="/services/occupational-therapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Occupational Therapy</Link></li>
+                <li><Link to="/services/physiotherapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Physiotherapy</Link></li>
+                <li><Link to="/services/behavior-management" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Behavior Management</Link></li>
+                <li><Link to="/services/early-intervention" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Early Intervention</Link></li>
+                <li><Link to="/services/special-education" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Education</Link></li>
+                <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Counseling</Link></li>
               </ul>
             </li>
 
             <li><Link to="/contact-us" onClick={() => setMenuOpen(false)}>Contact</Link></li>
-            <li><Link to="/donate" className="donate-link" onClick={() => setMenuOpen(false)}> Donate</Link></li>
+            <li><Link to="/donate" onClick={() => setMenuOpen(false)}>Donate</Link></li>
 
+            {/* Highlighted Button */}
+            <li>
+              <Link to="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0"  target="_blank" rel="noopener noreferrer" className="consult-btn" onClick={() => setMenuOpen(false)}>
+                Free Consultation
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

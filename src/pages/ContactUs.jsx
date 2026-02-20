@@ -1,5 +1,5 @@
 import React from "react";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram, FaWhatsapp, FaShareAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram, FaWhatsapp, FaShareAlt, FaLinkedin } from "react-icons/fa";
 import usePageTitle from "../hooks/usePageTitle";
 import "./ContactUs.css";
 
@@ -9,22 +9,22 @@ export default function ContactUs() {
     <div className="contact-page">
 
       {/* Hero Banner */}
-      <div className="contact-hero">
+      {/* <div className="contact-hero">
         <div className="hero-content">
           <h1>Contact Aaradhya Foundation</h1>
           <p>Supporting children with special needs to learn, grow, and thrive.</p>
         </div>
-      </div>
+      </div> */}
 
       {/* About Us */}
-      <div className="about-section">
+      {/* <div className="about-section">
         <h2>About Us</h2>
         <p>
           Aaradhya Foundation is a dedicated child development and therapy centre supporting 
           children with special needs through personalized, evidence-based interventions. 
           Our mission is to empower every child to learn, grow, and thrive in a nurturing and inclusive environment.
         </p>
-      </div>
+      </div> */}
 
       {/* Addresses */}
       <div className="contact-split">
@@ -92,6 +92,9 @@ export default function ContactUs() {
             <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
               <FaWhatsapp style={{ color: '#25D366', fontSize: '2.5rem' }} />
             </a>
+             <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
+                          <FaLinkedin style={{ color: '#2556d3', fontSize: '2.5rem' }} />
+              </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import usePageTitle from "../hooks/usePageTitle";
 import "./ParentCounseling.css";
+import BookNow from "../components/BookNow";
 
 export default function ParentCounseling() {
    usePageTitle("Parent Counseling | Aaradhya Institute");
@@ -69,7 +70,7 @@ export default function ParentCounseling() {
           </p>
         </div>
       </section>
-
+       <BookNow />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSmile } from "react-icons/fa"; 
 import usePageTitle from "../hooks/usePageTitle";
 import "./SocialCommunicationSkills.css";
 import BookNow from "../components/BookNow";

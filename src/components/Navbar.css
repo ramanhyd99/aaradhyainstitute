@@ -29,25 +29,25 @@
   align-items: center;
   gap: 14px;                 /* space between text + icons */
 
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--dark);
 }
 
-.footer-social {
+.navbar-social {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   align-items: center;
   padding-top: 2px;
 }
 
-.footer-social a {
+.navbar-social a {
   color: #335f33;
-  font-size: 18px;
+  font-size: 24px;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.footer-social a:hover {
+.navbar-social a:hover {
   transform: scale(1.15);
   color: #f1c27d;
 }
@@ -121,7 +121,7 @@
 /* ================== FREE CONSULTATION BUTTON ================== */
 
 .consult-btn {
-  background-color: #f1c27d;
+  background-color: #6ac370;
   color: #333 !important;
   padding: 8px 16px;
   border-radius: 20px;
@@ -233,11 +233,12 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    font-size: 16px;
     flex-wrap: wrap;           
     text-align: center;
   }
 
-  .footer-social {
+  .navbar-social {
     justify-content: center;
   }
 
@@ -348,4 +349,10 @@
     cursor: pointer;
     z-index: 300;
   }
+
+  .navbar-social a {
+  color: #335f33;
+  font-size: 18px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
 }

@@ -46,7 +46,7 @@ export default function EarlyIntervention() {
           <h2>Typical Developmental Milestones</h2>
           <ul>
             <li>By 12 months: Responds to name, babbles, makes eye contact, shows interest in people</li>
-            <li>By 18 months: Says a few words, points to show interest, follows simple directions \</li>
+            <li>By 18 months: Says a few words, points to show interest, follows simple directions</li>
             <li>By 2 years: Uses short phrases, imitates actions, enjoys simple pretend play</li>
             <li>By 3 years: Talks in short sentences, plays with other children, shows a range of emotions</li>
           </ul>

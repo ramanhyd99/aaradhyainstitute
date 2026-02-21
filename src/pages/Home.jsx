@@ -16,6 +16,7 @@ import {
 import usePageTitle from "../hooks/usePageTitle";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import BookNow from "../components/BookNow";
 
 
 export default function Home() {
@@ -104,6 +105,7 @@ export default function Home() {
     { key: "special", img: "special.jpg", label: "Special Education", path: "/services/special-education" },
     { key: "parent", img: "parent.jpg", label: "Parent Counseling", path: "/services/parent-counseling" },
     { key: "physio", img: "physio.jpg", label: "Physiotherapy", path: "/services/physiotherapy" },
+    { key: "social", img: "social.jpg", label: "Social Communication Skills", path: "/services/social-communication-skills" },
   ].map((service) => (
             <Link to={service.path} className="service-link" key={service.key}>
   <div className="service-card">
@@ -121,6 +123,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <BookNow/>
     </div>
   );
 }

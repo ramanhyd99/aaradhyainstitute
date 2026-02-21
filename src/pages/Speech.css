@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+.therapy-page p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 /* HERO SECTION WITH BACKGROUND IMAGE & GRADIENT */
 .therapy-hero {
   background: linear-gradient(

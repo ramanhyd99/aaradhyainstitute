@@ -50,7 +50,7 @@ export default function ParentCounseling() {
           </div>
         </div>
 
-        <div className="pc-block">
+        <div className="pc-block pc-block-end">
           <span className="pc-index">03</span>
           <div>
             <h2>Family-Centered Approach</h2>

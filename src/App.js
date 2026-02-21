@@ -13,6 +13,7 @@ import OccupationalTherapy from "./pages/OccupationalTherapy";
 import Physiotherapy from "./pages/Physiotherapy";
 import BehaviorManagement from "./pages/BehaviorManagement";
 import EarlyIntervention from "./pages/EarlyIntervention";
+import SocialCommunicationSkills from "./pages/SocialCommunicationSkills";
 import SpecialEducation from "./pages/SpecialEducation";
 import ParentCounseling from "./pages/ParentCounseling";
 import Donate from "./pages/Donate";
@@ -40,6 +41,7 @@ function App() {
         <Route path="/services/early-intervention" element={<EarlyIntervention />} />
         <Route path="/services/special-education" element={<SpecialEducation />} />
         <Route path="/services/parent-counseling" element={<ParentCounseling />} />
+        <Route path="/services/social-communication-skills" element={<SocialCommunicationSkills />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/policies" element={<Policies />} />

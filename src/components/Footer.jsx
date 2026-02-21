@@ -15,8 +15,9 @@ export default function Footer() {
             A dedicated child development and therapy centre supporting children
             with special needs through personalized, evidence-based interventions.
           </p>
-
-          <h4 style={{ marginTop: 16 }}>Donate</h4>
+        </div>
+        <div className="footer-block">
+          <h4 >Donate</h4>
           <p>
             Aaradhya Foundation
             <br />

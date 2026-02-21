@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import usePageTitle from "../hooks/usePageTitle";
 import "./AboutUs.css";
+import BookNow from "../components/BookNow";
 
 export default function AboutUs() {
   usePageTitle("About Us | Aaradhya Institute");
@@ -127,6 +128,7 @@ export default function AboutUs() {
           children move, connect, and thrive — one step at a time.
         </p>
       </section>
+      <BookNow/>
     </div>
   );
 }

@@ -2,7 +2,8 @@
   background-color: #e8f5e8;
   color: var(--dark);
   padding: 40px 20px;
-  margin-top: 0px;
+  margin-top: -30px;
+  /* background-color: #333; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -10,7 +11,7 @@
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 32px;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .footer-block h4 {
-  margin-bottom: 8px;   /* tighten heading spacing */
+  margin-bottom: px;   /* tighten heading spacing */
 }
 
 /* Footer bottom */
@@ -85,6 +86,7 @@
 @media (max-width: 900px) {
   .footer-inner {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;   /* 👈 uniform vertical spacing */
   }
 }
 
@@ -94,7 +96,7 @@
   }
 
   .footer-block {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     text-align: center;   /* 👈 center text */
   }
 

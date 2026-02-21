@@ -101,9 +101,8 @@ export default function Physiotherapy() {
         </div>
 
         {/* CLOSING */}
-       <div className="physio-closing">
-       <div className="physio-closing-card">
-       <h3>Every Step Counts</h3>
+       <div className="physio-section">
+       <h2>Every Step Counts</h2>
        <p>
          Watching your child move with confidence is a moment worth celebrating.
          Progress may take time, but every effort brings your child closer to
@@ -114,9 +113,7 @@ export default function Physiotherapy() {
          child’s journey with care. Together, we will help your child reach their
          full potential.
      </p>
-  </div>
 </div>
-
       <BookNow />
       </section>
     </div>

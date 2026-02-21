@@ -6,8 +6,8 @@ import {
   FaWhatsapp, 
   FaInstagram, 
   FaLinkedin, 
-  FaPhone, 
-  FaMapMarkerAlt 
+  FaMapMarkerAlt, 
+  FaPhoneAlt
 } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="top-inner">
           <span>Come join us:</span>
 
-          <div className="footer-social">
+          <div className="navbar-social">
             <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp />
             </a>
@@ -36,9 +36,9 @@ const Navbar = () => {
               <FaLinkedin />
             </a>
             <a href="tel:+919963159347">
-              <FaPhone />
+              <FaPhoneAlt />
             </a>
-            <a href="https://maps.app.goo.gl/ymMbTgKTWj8Cqn377" target="_blank" rel="noopener noreferrer">
+            <a href="https://maps.app.goo.gl/xHCkuCo7KTFbozjZA" target="_blank" rel="noopener noreferrer">
               <FaMapMarkerAlt />
             </a>
           </div>
@@ -72,6 +72,7 @@ const Navbar = () => {
                 <li><Link to="/services/early-intervention" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Early Intervention</Link></li>
                 <li><Link to="/services/special-education" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Education</Link></li>
                 <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Counseling</Link></li>
+                <li><Link to="/services/social-communication-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Social Communication Skills</Link></li>
               </ul>
             </li>
 

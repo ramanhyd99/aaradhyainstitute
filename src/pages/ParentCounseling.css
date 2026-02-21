@@ -3,7 +3,7 @@
   font-family: 'Poppins', sans-serif;
   background: #e7f3f1;
   color: #2b2b2b;
-  padding-bottom: 80px; 
+  padding-bottom: 20px; 
   scroll-behavior: smooth;
 }
 
@@ -74,8 +74,12 @@
 .pc-block {
   display: flex;
   gap: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   align-items: flex-start;
+}
+
+.pc-block-end {
+  margin-bottom: -40px;
 }
 
 .pc-index {

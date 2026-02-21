@@ -9,7 +9,13 @@
   line-height: 1.6;
   overflow-x: hidden;
   background: var(--pista);
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.home-page p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 /* Uniform section spacing */
@@ -138,6 +144,8 @@ section h2 {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 16px;
   margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .feature-box {
@@ -149,7 +157,7 @@ section h2 {
 
   display: flex;
   align-items: center;   /* vertical center */
-  justify-content: center; /* keeps whole group centered */
+  justify-content: left; /* keeps whole group centered */
   gap: 10px;             /* 🔥 controls distance between tick & text */
   text-align: left;
 }
@@ -159,6 +167,7 @@ section h2 {
   color: #4caf50;
   font-weight: bold;
   flex-shrink: 0;
+  padding-right: 5px;
 }
 
 /* ================= SERVICES ================= */
@@ -168,6 +177,10 @@ section h2 {
   grid-template-columns: repeat(3, 1fr); /* 🔥 exactly 3 per row */
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.service-card p{
+  text-align: center;
 }
 
 .service-card {
@@ -246,13 +259,16 @@ section h2 {
     object-fit: cover;
   }
 
-  /* SERVICES */
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-    margin-right: 52px;
-    margin-left: 52px;
-  }
+   /* SERVICES */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  max-width: 900px;   /* control overall width */
+  margin: 0 auto;     /* centers the grid */
+  padding: 0 20px;    /* adds equal gap on left & right */
+}
 
   .service-card {
     padding: 12px;

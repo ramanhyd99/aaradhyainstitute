@@ -67,7 +67,7 @@ export default function ContactUs() {
           <div className="map-container compact-map">
             <iframe
               title="Aaradhya Foundation Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5070!2d78.2990789!3d17.507947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8d334e1c4971:0x2312461261a36059!2sAaradhya%20Speech%20Centre!5e0!3m2!1sen!2sin!4v1700000000000"
+              src="https://maps.app.goo.gl/xHCkuCo7KTFbozjZA"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

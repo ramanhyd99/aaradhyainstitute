@@ -9,6 +9,12 @@
   margin-bottom: 0;
 }
 
+.about-page p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 /* SPLIT SECTIONS */
 .about-split {
   display: flex;

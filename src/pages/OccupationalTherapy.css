@@ -4,6 +4,11 @@
   color: #2a2a2a;
    background-color: #e8f5e8;
 }
+.occupational-page p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 
 /* HERO */
 .occupational-hero {
@@ -90,8 +95,8 @@
 
 /* CLOSING REASSURANCE BAND */
 .occupational-closing {
-  margin-top: 80px;
-  padding: 80px 30px;
+  margin-top: 0px;
+  padding: 50px 50px;
   background: linear-gradient(180deg, #fff5ea, #fffaf5);
   display: flex;
   justify-content: center;
@@ -100,8 +105,10 @@
 /* LINE WITH ICON + TEXT */
 .occupational-closing-line {
   max-width: 900px;
-  display: flex;
-  align-items: flex-start; 
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+  /* align-items: flex-start;  */
   gap: 16px;
 }
 
@@ -136,4 +143,12 @@
   .occupational-closing {
     padding: 28px;
   }
+}
+
+@media (max-width: 768px) {
+  .occupational-closing-icon {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 4px; 
+}
 }

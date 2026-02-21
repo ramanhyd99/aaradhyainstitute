@@ -5,8 +5,14 @@
   font-family: 'Poppins', sans-serif;
   background: #e7f3f1;
   color: #2b2b2b;
-  padding-bottom: 80px; 
+  padding-bottom: 20px; 
   scroll-behavior: smooth;
+}
+
+.bm-page p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 /* HERO */

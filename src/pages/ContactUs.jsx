@@ -67,7 +67,7 @@ export default function ContactUs() {
           <div className="map-container compact-map">
             <iframe
               title="Aaradhya Foundation Location"
-              src="https://maps.app.goo.gl/xHCkuCo7KTFbozjZA"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.990810590395!2d78.29650397505459!3d17.507952099320885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8d334e1c4971%3A0x2312461261a36059!2sAaradhya%20Speech%20Centre!5e0!3m2!1sen!2sin!4v1771858728125!5m2!1sen!2sin"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -79,9 +79,9 @@ export default function ContactUs() {
           <div className="icon-wrapper"><FaShareAlt /></div>
           <h3>Connect With Us</h3>
           <p>
-            Stay connected with Aaradhya Foundation and follow our journey on social media. 
+            Stay connected with Aaradhya Foundation and follow our journey on social media.
             Get updates, see highlights from our programs, and celebrate milestones of our children.
-            Reach out directly on WhatsApp for inquiries or appointments. Our team is always happy 
+            Reach out directly on WhatsApp for inquiries or appointments. Our team is always happy
             to support your child’s growth and development.
           </p>
 
@@ -92,9 +92,9 @@ export default function ContactUs() {
             <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
               <FaWhatsapp style={{ color: '#25D366', fontSize: '2.5rem' }} />
             </a>
-             <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
-                          <FaLinkedin style={{ color: '#2556d3', fontSize: '2.5rem' }} />
-              </a>
+            <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin style={{ color: '#2556d3', fontSize: '2.5rem' }} />
+            </a>
           </div>
         </div>
       </div>

@@ -68,6 +68,11 @@ export default function Footer() {
                 Parent Counseling
               </Link>
             </li>
+            <li>
+              <Link to="/services/social-communication-skills">
+                Social Communication Skills
+              </Link>
+            </li>
           </ul>
         </div>
 

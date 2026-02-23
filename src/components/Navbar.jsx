@@ -7,7 +7,8 @@ import {
   FaInstagram, 
   FaLinkedin, 
   FaMapMarkerAlt, 
-  FaPhoneAlt
+  FaPhoneAlt,
+  FaChevronDown
 } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -62,7 +63,8 @@ const Navbar = () => {
 
             <li className={`nav-dropdown ${dropdownOpen ? "open" : ""}`}>
               <div className="dropdown-title" onClick={toggleDropdown}>
-                Services
+                <span>Services</span>
+                <FaChevronDown className={`dropdown-arrow ${dropdownOpen ? "rotate" : ""}`} />
               </div>
               <ul className="fade-dropdown">
                 <li><Link to="/services/speech-language-therapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Speech & Language Therapy</Link></li>

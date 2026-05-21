@@ -30,10 +30,10 @@ const Navbar = () => {
             <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp />
             </a>
-            <a href="https://www.instagram.com/aaradhyafoundation2023/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/aaradhyaspeechcentre/" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/swarna-reddy-special-educator-71a811389/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
             <a href="tel:+919963159347">

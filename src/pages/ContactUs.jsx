@@ -86,13 +86,13 @@ export default function ContactUs() {
           </p>
 
           <div className="social-icons">
-            <a href="https://www.instagram.com/aaradhyafoundation2023/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/aaradhyaspeechcentre/" target="_blank" rel="noreferrer">
               <FaInstagram style={{ color: '#C13584', fontSize: '2.5rem' }} />
             </a>
             <a href="https://api.whatsapp.com/send/?phone=%2B919963159347&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">
               <FaWhatsapp style={{ color: '#25D366', fontSize: '2.5rem' }} />
             </a>
-            <a href="https://www.linkedin.com/in/swarna-reddy-71a811389/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/swarna-reddy-special-educator-71a811389/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin style={{ color: '#2556d3', fontSize: '2.5rem' }} />
             </a>
           </div>

@@ -35,10 +35,9 @@ export default function Home() {
       {/* ================= HERO ================= */}
       <section className="hero-banner">
         <div className="hero-content">
-          <h1>Empowering Neurodiverse Lives with Compassionate Therapy</h1>
+          <h2>Aaradhya Speech & Therapy Centre </h2>
           <p>
-            Comprehensive neuroaffirming autism therapy services tailored to
-            each individual’s strengths and needs — in person & virtual.
+            Provides expert, multidisciplinary care. We empower individuals through personalized speech, behavioral, occupational therapies, and social communication skills fostering independence and growth in a supportive environment --- in person & virtual
           </p>
         </div>
 

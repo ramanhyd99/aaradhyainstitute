@@ -114,7 +114,7 @@ export default function Footer() {
           <h4>Follow Us</h4>
           <div className="footer-social">
             <a
-              href="https://www.instagram.com/aaradhyafoundation2023/"
+              href="https://www.instagram.com/aaradhyaspeechcentre/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -122,7 +122,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/swarna-reddy-71a811389/"
+              href="https://www.linkedin.com/in/swarna-reddy-special-educator-71a811389/"
               target="_blank"
               rel="noopener noreferrer"
             >

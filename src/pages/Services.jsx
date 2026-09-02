@@ -28,6 +28,31 @@ export default function Services() {
     title: "Special Education",
     link: "/services/special-education",
     desc: "Personalized learning support for children with special needs."
+  },
+  {
+    title: "ADL & Life Skills",
+    link: "/services/adl-life-skills",
+    desc: "Building practical everyday skills for greater independence."
+  },
+  {
+    title: "Special Needs Day Care",
+    link: "/services/special-needs-day-care",
+    desc: "Structured learning, play and support throughout the day."
+  },
+  {
+    title: "Autism Therapy Services",
+    link: "/services/autism-therapy-services",
+    desc: "Individualised support for meaningful progress and independence."
+  },
+  {
+    title: "School Readiness Programme",
+    link: "/services/school-readiness-programme",
+    desc: "Helping children build confidence for a school environment."
+  },
+  {
+    title: "ADHD Therapy & Support",
+    link: "/services/adhd-therapy-support",
+    desc: "Building attention, behaviour, learning and everyday life skills."
   }
 ];
 

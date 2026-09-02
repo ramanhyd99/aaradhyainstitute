@@ -32,7 +32,7 @@ export default function ContactUs() {
           <div className="icon-wrapper"><FaMapMarkerAlt /></div>
           <h3>Visit Us</h3>
           <p>
-            Om building, Plot no 20<br />
+            Plot no 20<br />
             1st floor, Road no 3<br />
             Ramchandra Reddy Nagar Colony<br />
             BHEL Township, Hyderabad

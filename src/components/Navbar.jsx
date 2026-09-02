@@ -10,6 +10,9 @@ import {
   FaPhoneAlt,
   FaChevronDown
 } from "react-icons/fa";
+
+import { FaXTwitter } from "react-icons/fa6";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -41,6 +44,9 @@ const Navbar = () => {
             </a>
             <a href="https://maps.app.goo.gl/xHCkuCo7KTFbozjZA" target="_blank" rel="noopener noreferrer">
               <FaMapMarkerAlt />
+            </a>
+            <a href="https://x.com/AaradhyaSpeech" target="_blank" rel="noopener noreferrer">
+             <FaXTwitter />
             </a>
           </div>
         </div>
@@ -75,6 +81,11 @@ const Navbar = () => {
                 <li><Link to="/services/special-education" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Education</Link></li>
                 <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Counseling</Link></li>
                 <li><Link to="/services/social-communication-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Social Communication Skills</Link></li>
+                <li><Link to="/services/adl-life-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>ADL &amp; Life Skills</Link></li>
+                <li><Link to="/services/special-needs-day-care" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Needs Day Care</Link></li>
+                <li><Link to="/services/autism-therapy-services" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Autism Therapy Services</Link></li>
+                <li><Link to="/services/school-readiness-programme" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>School Readiness Programme</Link></li>
+                <li><Link to="/services/adhd-therapy-support" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>ADHD Therapy &amp; Support</Link></li>
               </ul>
             </li>
 

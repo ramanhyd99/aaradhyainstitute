@@ -33,8 +33,7 @@ export default function AboutUs() {
           <h2>Who We Are</h2>
 
           <p className="about-subtitle">
-  Supporting children with special needs through compassion, expertise,
-  and personalized care.
+  7+ years of clinical excellence in supporting children with special needs through compassion, expertise, and personalized care.
 </p>
 
           <p>

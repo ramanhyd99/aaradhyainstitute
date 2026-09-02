@@ -44,6 +44,11 @@
   border-radius: 16px;
 }
 
+/* New programme pages use a slightly larger hero image on laptop and desktop. */
+.programme-service-page .ei-left img {
+  max-width: 420px;
+}
+
 /* RIGHT (TEXT) */
 .ei-right {
   flex: 1;
@@ -153,6 +158,10 @@
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
+  .programme-service-page .ei-left img {
+    max-width: 360px;
+  }
 
   .ei-split {
     flex-direction: column;

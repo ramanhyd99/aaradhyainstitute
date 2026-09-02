@@ -105,6 +105,11 @@ export default function Home() {
     { key: "parent", img: "parent.jpg", label: "Parent Counseling", path: "/services/parent-counseling" },
     { key: "physio", img: "physio.jpg", label: "Physiotherapy", path: "/services/physiotherapy" },
     { key: "social", img: "social.jpg", label: "Social Communication Skills", path: "/services/social-communication-skills" },
+    { key: "adl", img: "occupational.jpg", label: "ADL & Life Skills", path: "/services/adl-life-skills" },
+    { key: "daycare", img: "group.jpg", label: "Special Needs Day Care", path: "/services/special-needs-day-care" },
+    { key: "autism", img: "early.jpg", label: "Autism Therapy Services", path: "/services/autism-therapy-services" },
+    { key: "school", img: "special.jpg", label: "School Readiness Programme", path: "/services/school-readiness-programme" },
+    { key: "adhd", img: "behavior.jpg", label: "ADHD Therapy & Support", path: "/services/adhd-therapy-support" },
   ].map((service) => (
             <Link to={service.path} className="service-link" key={service.key}>
   <div className="service-card">

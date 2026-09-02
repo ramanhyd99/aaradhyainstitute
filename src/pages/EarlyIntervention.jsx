@@ -65,6 +65,39 @@ export default function EarlyIntervention() {
           </ul>
         </div>
 
+        <div className="ei-block ei-light">
+          <h2>Early Support for Better Development</h2>
+          <p>
+            The first few years of life shape how a child learns, communicates, and connects with the world. For children showing signs of autism or other developmental delays, early support can make a life-changing difference. Early intervention helps identify challenges quickly and provides individualised support for children with developmental, communication, behavioural and learning difficulties. At Aaradhya Speech &amp; Therapy Centre, we help children build functional skills for communication, learning, interaction and independence.
+          </p>
+        </div>
+
+        <div className="ei-block ei-dark">
+          <h2>Areas We Support</h2>
+          <ul>
+            <li><strong>Communication &amp; Speech:</strong> Improving understanding, vocabulary and functional communication.</li>
+            <li><strong>Social &amp; Play Skills:</strong> Building interaction, attention and turn-taking.</li>
+            <li><strong>Learning &amp; Attention:</strong> Enhancing focus, following instructions and early learning.</li>
+            <li><strong>Behaviour &amp; Emotional Skills:</strong> Supporting self-regulation and positive behaviour.</li>
+            <li><strong>Motor &amp; ADL (Daily Living) Skills:</strong> Developing independence and self-care skills.</li>
+            <li><strong>Early Learning &amp; School Readiness:</strong> Building attention, early learning skills, following instructions and classroom readiness.</li>
+          </ul>
+        </div>
+
+        <div className="ei-block ei-light">
+          <h2>Our Approach</h2>
+          <p>
+            Each child is assessed based on their individual strengths and needs. We set practical goals and provide structured, play-based activities to support meaningful progress. Depending on the child’s needs, intervention may include Speech Therapy, Occupational Therapy, Behaviour Therapy and Special Education.
+          </p>
+        </div>
+
+        <div className="ei-block ei-dark">
+          <h2>Why Early Intervention Matters and Our Goal</h2>
+          <p>
+            Early support builds strong foundations and reduces future challenges, helping children communicate, learn and become independent.
+          </p>
+        </div>
+
       </section>
 
       {/* WARM CLOSING */}

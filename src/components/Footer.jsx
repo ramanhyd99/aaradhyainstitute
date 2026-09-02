@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import "./Footer.css";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -30,51 +31,51 @@ export default function Footer() {
         </div>
 
         {/* SERVICES */}
-        <div className="footer-block">
-          <h4>Services</h4>
-          <ul>
-            <li>
-              <Link to="/services/speech-language-therapy">
-                Speech & Language Therapy
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/occupational-therapy">
-                Occupational Therapy
-              </Link>
-            </li>
-             <li>
-              <Link to="/services/physiotherapy">
-                Physiotherapy
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/behavior-management">
-                Behavior Management
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/early-intervention">
-                Early Intervention
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/special-education">
-                Special Education
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/parent-counseling">
-                Parent Counseling
-              </Link>
-            </li>
-            <li>
-              <Link to="/services/social-communication-skills">
-                Social Communication Skills
-              </Link>
-            </li>
-          </ul>
-        </div>
+{/*         <div className="footer-block"> */}
+{/*           <h4>Services</h4> */}
+{/*           <ul> */}
+{/*             <li> */}
+{/*               <Link to="/services/speech-language-therapy"> */}
+{/*                 Speech & Language Therapy */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/occupational-therapy"> */}
+{/*                 Occupational Therapy */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*              <li> */}
+{/*               <Link to="/services/physiotherapy"> */}
+{/*                 Physiotherapy */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/behavior-management"> */}
+{/*                 Behavior Management */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/early-intervention"> */}
+{/*                 Early Intervention */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/special-education"> */}
+{/*                 Special Education */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/parent-counseling"> */}
+{/*                 Parent Counseling */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*             <li> */}
+{/*               <Link to="/services/social-communication-skills"> */}
+{/*                 Social Communication Skills */}
+{/*               </Link> */}
+{/*             </li> */}
+{/*           </ul> */}
+{/*         </div> */}
 
         {/* HELP & POLICIES */}
         <div className="footer-block">
@@ -93,7 +94,7 @@ export default function Footer() {
         <div className="footer-block">
           <h4>Contact Us</h4>
           <p>
-            Om Building, Plot No. 20
+            Plot No. 20
             <br />
             1st Floor, Road No. 3, Ramchandra Reddy Nagar Colony
             <br />
@@ -136,6 +137,13 @@ export default function Footer() {
             >
               <FaWhatsapp style={{ color: "#25D366", fontSize: "2rem" }} />
             </a>
+            <a
+                          href="https://x.com/AaradhyaSpeech"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaXTwitter style={{ color: "#000", fontSize: "2rem" }} />
+             </a>
           </div>
         </div>
 

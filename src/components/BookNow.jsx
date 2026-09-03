@@ -24,6 +24,14 @@ export default function BookNow() {
           Speak with our specialists today and take the first step toward progress.
         </p>
 
+        <p style={{ textAlign: "center", fontWeight: "bold" }}>Our Services</p>
+
+        <p className="services-list">
+          Speech Therapy | Occupational Therapy | Behaviour Therapy | Early Intervention | Special Education
+          | Parent Counselling | Social Communication Skills | Psychotherapy | ADL & Life Skills | Special Needs Day Care
+          | Autism Therapies | School Readiness Programme | ADHD Therapy & Support
+        </p>
+
         <div className="booknow-buttons">
           <button className="call-btn" onClick={handlePhoneClick}>
             <FaPhoneAlt /> Call Now

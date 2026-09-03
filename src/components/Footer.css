@@ -11,8 +11,21 @@
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 32px;
+}
+
+.footer-block {
+  min-width: 0;
+}
+
+.footer-services {
+  grid-column: 1 / -1;
+}
+
+.footer-services p {
+  max-width: 900px;
+  text-wrap: pretty;
 }
 
 .footer-block h3,
@@ -46,6 +59,7 @@
   border-radius: 6px;
   display: inline-block;
   transition: background-color 0.3s, color 0.3s;
+  overflow-wrap: anywhere;
 }
 
 .footer-block a:hover {

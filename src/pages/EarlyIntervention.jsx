@@ -52,18 +52,18 @@ export default function EarlyIntervention() {
           </ul>
         </div>
 
-        <div className="ei-block ei-dark">
-          <h2>Red Flags to Watch For</h2>
-          <ul>
-            <li>Limited or no response to sounds or name call</li>
-            <li>Seems to absorbed in their own world</li>
-            <li>Fascination for spinning</li>
-            <li>No babbling or gestures (like pointing or waving) by 12 months</li>
-            <li>No single words by 16 months or no two-word phrases by 2 years</li>
-            <li>Limited eye contact or lack of interest in playing with others</li>
-            <li>Repetitive movements or strong reactions to stimuli</li>
-          </ul>
-        </div>
+{/*         <div className="ei-block ei-dark"> */}
+{/*           <h2>Red Flags to Watch For</h2> */}
+{/*           <ul> */}
+{/*             <li>Limited or no response to sounds or name call</li> */}
+{/*             <li>Seems to absorbed in their own world</li> */}
+{/*             <li>Fascination for spinning</li> */}
+{/*             <li>No babbling or gestures (like pointing or waving) by 12 months</li> */}
+{/*             <li>No single words by 16 months or no two-word phrases by 2 years</li> */}
+{/*             <li>Limited eye contact or lack of interest in playing with others</li> */}
+{/*             <li>Repetitive movements or strong reactions to stimuli</li> */}
+{/*           </ul> */}
+{/*         </div> */}
 
         <div className="ei-block ei-light">
           <h2>Early Support for Better Development</h2>

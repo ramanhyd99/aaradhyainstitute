@@ -30,53 +30,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* SERVICES */}
-{/*         <div className="footer-block"> */}
-{/*           <h4>Services</h4> */}
-{/*           <ul> */}
-{/*             <li> */}
-{/*               <Link to="/services/speech-language-therapy"> */}
-{/*                 Speech & Language Therapy */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/occupational-therapy"> */}
-{/*                 Occupational Therapy */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*              <li> */}
-{/*               <Link to="/services/physiotherapy"> */}
-{/*                 Physiotherapy */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/behavior-management"> */}
-{/*                 Behavior Management */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/early-intervention"> */}
-{/*                 Early Intervention */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/special-education"> */}
-{/*                 Special Education */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/parent-counseling"> */}
-{/*                 Parent Counseling */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*             <li> */}
-{/*               <Link to="/services/social-communication-skills"> */}
-{/*                 Social Communication Skills */}
-{/*               </Link> */}
-{/*             </li> */}
-{/*           </ul> */}
-{/*         </div> */}
-
         {/* HELP & POLICIES */}
         <div className="footer-block">
           <h4>Policies</h4>

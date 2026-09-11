@@ -32,7 +32,7 @@ export default function EarlyIntervention() {
           <p>The earlier we act, the more a child’s brain can adapt and grow.</p>
         </div>
 
-        <div className="ei-block ei-dark">
+        <div className="ei-block ei-dark ei-progress-block">
           <h2>What Progress Can Look Like</h2>
           <ul>
             <li>Clearer communication and better understanding</li>

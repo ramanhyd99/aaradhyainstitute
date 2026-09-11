@@ -20,7 +20,7 @@ export default function SpeechLanguageTherapy() {
     },
     {
       title: "Communication Techniques",
-      desc: "We teach practical communication techniques that can be used at home, school, or in the community. From gestures and visual cues to social skills coaching, our strategies help clients communicate effectively and feel understood in every environment.",
+      desc: "We teach practical functional communication techniques that can be used at home, school, or in the community. From gestures and visual cues to social skills coaching, our strategies help clients communicate effectively and feel understood in every environment.",
     },
     {
       title: "Receptive and Expressive Language",
@@ -33,6 +33,14 @@ export default function SpeechLanguageTherapy() {
     {
       title: "Tongue Tie",
       desc: "A tongue tie can affect speech, feeding, and oral movement. Our team works collaboratively with families and medical professionals to provide supportive exercises and interventions, helping clients achieve improved tongue mobility and more effective communication.",
+    },
+    {
+      title: "Cleft Lip & Palate",
+      desc: "A cleft lip or palate can affect how a child produces speech sounds, directs airflow, and swallows. Even after surgical repair, specialized speech therapy is often essential to help children speak clearly and comfortably.",
+    },
+{
+      title: "Early Language Intervention & Late Talkers (Speech Delay)",
+      desc: "Some toddlers need a little extra support to start using words, gestures, and connecting through communication. Early language intervention focuses on play-based, parent-child interaction therapy to help young children express themselves naturally before reaching school age.",
     },
   ];
 
@@ -50,7 +58,7 @@ export default function SpeechLanguageTherapy() {
       {/* SPLIT & FULL-WIDTH SECTIONS */}
       <div className="therapy-split">
         {therapies.map((therapy, idx) => {
-          const isFullWidth = therapy.title === "Tongue Tie";
+          const isFullWidth = therapy.title === "Early Language Intervention & Late Talkers (Speech Delay)";
 
           return (
             <section

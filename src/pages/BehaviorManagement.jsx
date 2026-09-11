@@ -1,5 +1,4 @@
 import React from "react";
-import { GiPlantWatering } from "react-icons/gi"; 
 import { FaHandsHelping } from "react-icons/fa";
 import usePageTitle from "../hooks/usePageTitle";
 import "./BehaviorManagement.css";
@@ -13,8 +12,8 @@ export default function BehaviorManagement() {
       {/* HERO */}
       <section className="bm-hero">
         <div className="bm-hero-content">
-          <h1>Behavior Management</h1>
-          <p>Understanding behavior with empathy, structure, and support</p>
+          <h1>Behavior Management for Children</h1>
+          <p>All behaviors are communication</p>
         </div>
       </section>
 
@@ -22,13 +21,19 @@ export default function BehaviorManagement() {
       <section className="bm-feature">
         <div className="bm-feature-inner">
         <FaHandsHelping className="bm-intro-icon" />
-        <p>
-          <strong>All behaviors are communication.</strong> However challenging behaviors
-          can be stressful for children and families. Our goal is to provide
-          supportive, individualized behavior management strategies that help
-          children thrive, while guiding families with empathy, understanding,
-          and practical tools.
-        </p>
+        <div>
+          <h2>Understanding Behavior. Building Skills. Supporting Positive Change.</h2>
+          <p>
+            Every child communicates through behavior. When challenging behaviors
+            interfere with communication, learning, routines, or family life, the
+            right support can make everyday situations easier.
+          </p>
+          <p>
+            We use individualized, positive and child-centred strategies to
+            understand behavior, teach useful skills and support children and
+            families with understanding and practical tools.
+          </p>
+        </div>
          </div>
       </section>
 
@@ -38,13 +43,17 @@ export default function BehaviorManagement() {
         <div className="bm-block">
           <span className="bm-index">01</span>
           <div>
-            <h2>Understanding and Supporting Behavior</h2>
+            <h2>Understanding the Reasons Behind Behavior and Supporting</h2>
+            <h3>Understanding What Your Child Is Communicating</h3>
             <p>
-              Every behavior communicates something meaningful. Our therapists
-              use functional behavior assessment to identify triggers and
-              patterns, helping us develop targeted interventions. We focus on
-              positive behavior support to encourage desirable behaviors while
-              reducing frustration, anxiety, and behavioral challenges.
+              Challenging behavior often has a reason behind it. We look at when
+              and where behaviors occur, what may trigger them, and how your child
+              communicates their needs.
+            </p>
+            <p>
+              Based on the child's individual needs, we develop practical
+              strategies to support communication, emotional regulation,
+              cooperation and positive behavior.
             </p>
           </div>
         </div>
@@ -52,14 +61,23 @@ export default function BehaviorManagement() {
         <div className="bm-block">
           <span className="bm-index">02</span>
           <div>
-            <h2>Practical Strategies for Daily Life</h2>
+            <h2>Positive Behavior Strategies for Everyday Life</h2>
+            <h3>Helping Children Learn More Appropriate Ways to Respond</h3>
             <p>
-              We provide actionable behavior management strategies that can be
-              used at home, school, or in the community. Tools such as visual
-              schedules help children follow routines, improve instruction
-              following, and enhance predictability throughout the day. These
-              strategies support consistency and reduce stress for both children
-              and caregivers.
+              We teach children practical skills that can replace challenging
+              behaviors and help them participate more successfully in daily
+              activities.
+            </p>
+            <p>
+              Strategies may include clear instructions, visual supports, positive
+              reinforcement, structured routines, choice-making and step-by-step
+              teaching. These approaches can help children manage transitions,
+              follow routines, complete tasks and participate more comfortably at
+              home, school and in the community.
+            </p>
+            <p>
+              These strategies support consistency and reduce stress for both
+              children and caregivers.
             </p>
           </div>
         </div>
@@ -67,13 +85,22 @@ export default function BehaviorManagement() {
         <div className="bm-block">
           <span className="bm-index">03</span>
           <div>
-            <h2>Verbal Behavior and Communication Support</h2>
+            <h2>Verbal Behavior &amp; Emotional Regulation</h2>
+            <h3>Teaching Children Better Ways to Express Their Needs</h3>
             <p>
-              Our approach incorporates verbal behavior principles, helping
-              children use communication effectively to express their needs,
-              wants, and emotions. By teaching functional communication, we
-              reduce challenging behaviors and promote social engagement and
-              independence.
+              Sometimes behavior becomes challenging when a child cannot express
+              what they want, need or feel.
+            </p>
+            <p>
+              We support children in developing functional communication,
+              emotional regulation and coping skills so they can express
+              themselves more effectively. Depending on the child's needs, this
+              may include teaching children to request, wait, ask for help, make
+              choices, manage frustration and respond to everyday situations.
+            </p>
+            <p>
+              The goal is to reduce challenging behaviors and promote social
+              engagement and independence.
             </p>
           </div>
         </div>
@@ -81,12 +108,19 @@ export default function BehaviorManagement() {
         <div className="bm-block">
           <span className="bm-index">04</span>
           <div>
-            <h2>Building Focus and Endurance</h2>
+            <h2>Building Attention, Cooperation &amp; Daily Living Skills</h2>
             <p>
-              Some children require support to improve sitting tolerance and
-              attention during structured activities. Through individualized
-              programs, we help children build the skills to engage successfully
-              in learning and daily routines.
+              Behavior support is also about helping children participate
+              successfully in everyday life.
+            </p>
+            <p>
+              We work on skills such as attention, sitting tolerance, following
+              instructions, waiting, transitions, task completion, cooperation and
+              independence.
+            </p>
+            <p>
+              Activities are adjusted to the child's developmental level and
+              gradually increased as the child becomes comfortable.
             </p>
           </div>
         </div>
@@ -94,28 +128,41 @@ export default function BehaviorManagement() {
         <div className="bm-block">
           <span className="bm-index">05</span>
           <div>
-            <h2>A Collaborative, Family-Centered Approach</h2>
+            <h2>Parent Guidance &amp; Family-Centred Support</h2>
             <p>
-              Families are central to our process. We provide guidance, coaching,
-              and training so parents and caregivers can implement strategies
-              confidently. Each plan is personalized, compassionate, and
-              practical, empowering families and supporting children’s growth.
+              We provide parents and caregivers with practical strategies,
+              guidance and training that can be used at home and in everyday
+              situations. With a collaborative approach, we identify realistic
+              goals, understand progress and adjust strategies when needed.
+            </p>
+            <p>
+              Our goal is to help families feel more confident while supporting
+              their child's behavior, communication, emotional regulation and
+              independence.
+            </p>
+            <p>
+              Parent involvement and consistent strategies across home and therapy
+              settings are important in behavior-management approaches.
             </p>
           </div>
         </div>
 
       </section>
 
-      {/* CLOSING */}
-         <section className="bm-closing bm-soft-section">
-         <div className="bm-closing-inner">
-         <GiPlantWatering className="bm-closing-icon" />
+      <section className="bm-benefits bm-soft-section">
+        <div className="bm-benefits-inner">
+          <h2>Who Can Benefit from Behavior Management?</h2>
           <p>
-       Every step forward matters. We honor progress at each stage, creating a
-       space where children feel supported, understood, and confident as they grow.
-     </p>
-   </div>
- </section>
+            Behavior management support may benefit children who experience
+            frequent tantrums, difficulty following instructions, aggression,
+            impulsivity, difficulty waiting or transitioning, emotional outbursts,
+            poor attention, communication-related behaviors, or challenges with
+            routines and daily activities. Support is individualized according to
+            each child's developmental needs.
+          </p>
+        </div>
+      </section>
+
        <BookNow/>
    </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+/* Therapy icons are retained with the commented-out therapies section below.
 import {
   FaComments,
   FaSmile,
@@ -13,6 +14,7 @@ import {
   FaWalking,
   FaUsers,
 } from "react-icons/fa";
+*/
 import usePageTitle from "../hooks/usePageTitle";
 import "./Home.css";
 import { Link } from "react-router-dom";
@@ -51,8 +53,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= THERAPIES ================= */}
-      <section className="therapies-section">
+      {/* ================= THERAPIES (TEMPORARILY HIDDEN) ================= */}
+      {/* <section className="therapies-section">
         <h2>Our Therapies at a Glance</h2>
         <div className="therapy-grid">
           <div className="therapy-card"><FaComments className="therapy-icon" /><span>Social communication skills</span></div>
@@ -60,13 +62,50 @@ export default function Home() {
           <div className="therapy-card"><FaHandsHelping className="therapy-icon" /><span>Sensory Integration Therapy</span></div>
           <div className="therapy-card"><FaPuzzlePiece className="therapy-icon" /><span>Reflex Integration Therapy</span></div>
           <div className="therapy-card"><FaChild className="therapy-icon" /><span>Play Therapy</span></div>
-          <div className="therapy-card"><FaUserFriends className="therapy-icon" /><span>Parent Counselling</span></div>
+          <div className="therapy-card"><FaUserFriends className="therapy-icon" /><span>Parent Training & Counselling Support</span></div>
           <div className="therapy-card"><FaBullhorn className="therapy-icon" /><span>Communication Techniques</span></div>
           <div className="therapy-card"><FaAssistiveListeningSystems className="therapy-icon" /><span>AAC (Augmentative & Alternative Communication)</span></div>
           <div className="therapy-card"><FaBrain className="therapy-icon" /><span>Behavior Management Strategies</span></div>
           <div className="therapy-card"><FaUtensils className="therapy-icon" /><span>Oral Motor Strengthening & Feeding Therapy</span></div>
           <div className="therapy-card"><FaWalking className="therapy-icon" /><span>Physiotherapy</span></div>
           <div className="therapy-card"><FaUsers className="therapy-icon" /><span>Group Therapy & Social Skills</span></div>
+        </div>
+      </section> */}
+
+      {/* ================= SERVICES ================= */}
+      <section className="services-section">
+        <h2>Our Services</h2>
+
+        <div className="services-grid">
+          {[
+            { key: "speech", img: "speech.jpg", label: "Speech & Language Therapy", path: "/services/speech-language-therapy" },
+            { key: "occupational", img: "occupational.jpg", label: "Occupational Therapy", path: "/services/occupational-therapy" },
+            { key: "behavior", img: "behavior.jpg", label: "Behavior Management", path: "/services/behavior-management" },
+            { key: "early", img: "early.jpg", label: "Early Intervention", path: "/services/early-intervention" },
+            { key: "special", img: "special.jpg", label: "Special Education", path: "/services/special-education" },
+            { key: "parent", img: "parent.jpg", label: "Parent Training & Counselling Support", path: "/services/parent-counseling" },
+            { key: "physio", img: "physio.jpg", label: "Physiotherapy", path: "/services/physiotherapy" },
+            { key: "social", img: "social.jpg", label: "Social Communication Skills", path: "/services/social-communication-skills" },
+            { key: "adl", img: "occupational.jpg", label: "ADL & Life Skills", path: "/services/adl-life-skills" },
+            { key: "daycare", img: "group.jpg", label: "Special Needs Day Care", path: "/services/special-needs-day-care" },
+            { key: "autism", img: "early.jpg", label: "Autism Therapy Services", path: "/services/autism-therapy-services" },
+            { key: "school", img: "special.jpg", label: "School Readiness Programme", path: "/services/school-readiness-programme" },
+            { key: "adhd", img: "behavior.jpg", label: "ADHD Therapy & Support", path: "/services/adhd-therapy-support" },
+          ].map((service) => (
+            <Link to={service.path} className="service-link" key={service.key}>
+              <div className="service-card">
+                <div className={`service-img-wrap ${loadedImages[service.key] ? "loaded" : ""}`}>
+                  <img
+                    src={`/images/${service.img}`}
+                    alt={service.label}
+                    onLoad={() => handleImageLoad(service.key)}
+                    loading="lazy"
+                  />
+                </div>
+                <p>{service.label}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -91,42 +130,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= SERVICES ================= */}
-      <section className="services-section">
-        <h2>Our Services</h2>
-
-        <div className="services-grid">
-  {[
-    { key: "speech", img: "speech.jpg", label: "Speech & Language Therapy", path: "/services/speech-language-therapy" },
-    { key: "occupational", img: "occupational.jpg", label: "Occupational Therapy", path: "/services/occupational-therapy" },
-    { key: "behavior", img: "behavior.jpg", label: "Behavior Management", path: "/services/behavior-management" },
-    { key: "early", img: "early.jpg", label: "Early Intervention", path: "/services/early-intervention" },
-    { key: "special", img: "special.jpg", label: "Special Education", path: "/services/special-education" },
-    { key: "parent", img: "parent.jpg", label: "Parent Counseling", path: "/services/parent-counseling" },
-    { key: "physio", img: "physio.jpg", label: "Physiotherapy", path: "/services/physiotherapy" },
-    { key: "social", img: "social.jpg", label: "Social Communication Skills", path: "/services/social-communication-skills" },
-    { key: "adl", img: "occupational.jpg", label: "ADL & Life Skills", path: "/services/adl-life-skills" },
-    { key: "daycare", img: "group.jpg", label: "Special Needs Day Care", path: "/services/special-needs-day-care" },
-    { key: "autism", img: "early.jpg", label: "Autism Therapy Services", path: "/services/autism-therapy-services" },
-    { key: "school", img: "special.jpg", label: "School Readiness Programme", path: "/services/school-readiness-programme" },
-    { key: "adhd", img: "behavior.jpg", label: "ADHD Therapy & Support", path: "/services/adhd-therapy-support" },
-  ].map((service) => (
-            <Link to={service.path} className="service-link" key={service.key}>
-  <div className="service-card">
-    <div className={`service-img-wrap ${loadedImages[service.key] ? "loaded" : ""}`}>
-      <img
-        src={`/images/${service.img}`}
-        alt={service.label}
-        onLoad={() => handleImageLoad(service.key)}
-        loading="lazy"
-      />
-    </div>
-    <p>{service.label}</p>
-  </div>
-</Link>
-          ))}
-        </div>
-      </section>
       <BookNow/>
     </div>
   );

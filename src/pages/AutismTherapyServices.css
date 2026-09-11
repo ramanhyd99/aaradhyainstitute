@@ -1,0 +1,23 @@
+.autism-page { background: #fffaf0; color: #4a1717; padding: 10px 0 40px; }
+.autism-page p { line-height: 1.8; text-align: justify; text-justify: inter-word; hyphens: auto; }
+.autism-split { display: flex; flex-wrap: wrap; max-width: 1200px; gap: 40px; margin: 60px auto 0; padding: 0 20px; }
+.autism-left, .autism-right { flex: 1; min-width: 320px; }
+.autism-left { display: flex; align-items: center; justify-content: center; }
+.autism-left img { width: 100%; max-width: 420px; border-radius: 16px; object-fit: cover; }
+.autism-right { display: flex; flex-direction: column; justify-content: center; padding: 20px 10px; }
+.autism-right h1 { color: #4a1717; font-size: 3rem; margin-bottom: 24px; }
+.autism-intro, .autism-block, .autism-ending { border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.05); }
+.autism-intro { background: #ffe6cc; padding: 22px 20px; }
+.autism-intro p { margin: 0; font-size: 1.15rem; }
+.autism-content { max-width: 900px; margin: 50px auto 0; padding: 0 24px; }
+.autism-block { margin-bottom: 45px; padding: 35px 28px; }
+.autism-block.light { background: #fff0e6; }
+.autism-block.dark, .autism-ending { background: #ffe6cc; }
+.autism-block h2 { border-left: 5px solid #4a1717; color: #4a1717; font-size: 1.8rem; margin: 0 0 18px; padding-left: 14px; }
+.autism-block p, .autism-block ul { font-size: 1.05rem; line-height: 1.75; margin: 0; }
+.autism-block ul { padding-left: 22px; }
+.autism-block li { margin-bottom: 10px; }
+.autism-ending { max-width: 820px; margin: 45px auto 0; padding: 60px 30px; text-align: center; }
+.autism-ending svg { color: #4a1717; font-size: 2.3rem; margin-bottom: 20px; }
+.autism-ending p { font-size: 1.2rem; font-style: italic; margin: 0; text-align: center; }
+@media (max-width: 768px) { .autism-split { flex-direction: column; align-items: center; gap: 30px; } .autism-right { align-items: center; padding: 10px 0; } .autism-right h1 { font-size: 2.2rem; text-align: center; } .autism-block { padding: 28px 20px; } .autism-ending { margin-left: 20px; margin-right: 20px; padding: 40px 20px; } }

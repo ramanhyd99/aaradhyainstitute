@@ -79,7 +79,7 @@ const Navbar = () => {
                 <li><Link to="/services/behavior-management" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Behavior Management</Link></li>
                 <li><Link to="/services/early-intervention" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Early Intervention</Link></li>
                 <li><Link to="/services/special-education" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Education</Link></li>
-                <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Counseling</Link></li>
+                <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Training & Counselling Support</Link></li>
                 <li><Link to="/services/social-communication-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Social Communication Skills</Link></li>
                 <li><Link to="/services/adl-life-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>ADL &amp; Life Skills</Link></li>
                 <li><Link to="/services/special-needs-day-care" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Needs Day Care</Link></li>

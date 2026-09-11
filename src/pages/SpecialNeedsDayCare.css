@@ -1,0 +1,23 @@
+.daycare-page { background: #fffaf0; color: #4a1717; padding: 10px 0 40px; }
+.daycare-page p { line-height: 1.8; text-align: justify; text-justify: inter-word; hyphens: auto; }
+.daycare-split { display: flex; flex-wrap: wrap; max-width: 1200px; gap: 40px; margin: 60px auto 0; padding: 0 20px; }
+.daycare-left, .daycare-right { flex: 1; min-width: 320px; }
+.daycare-left { display: flex; align-items: center; justify-content: center; }
+.daycare-left img { width: 100%; max-width: 420px; border-radius: 16px; object-fit: cover; }
+.daycare-right { display: flex; flex-direction: column; justify-content: center; padding: 20px 10px; }
+.daycare-right h1 { color: #4a1717; font-size: 3rem; margin-bottom: 24px; }
+.daycare-intro, .daycare-block, .daycare-ending { border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.05); }
+.daycare-intro { background: #ffe6cc; padding: 22px 20px; }
+.daycare-intro p { margin: 0; font-size: 1.15rem; }
+.daycare-content { max-width: 900px; margin: 50px auto 0; padding: 0 24px; }
+.daycare-block { margin-bottom: 45px; padding: 35px 28px; }
+.daycare-block.light { background: #fff0e6; }
+.daycare-block.dark, .daycare-ending { background: #ffe6cc; }
+.daycare-block h2 { border-left: 5px solid #4a1717; color: #4a1717; font-size: 1.8rem; margin: 0 0 18px; padding-left: 14px; }
+.daycare-block p, .daycare-block ul { font-size: 1.05rem; line-height: 1.75; margin: 0; }
+.daycare-block ul { padding-left: 22px; }
+.daycare-block li { margin-bottom: 10px; }
+.daycare-ending { max-width: 820px; margin: 45px auto 0; padding: 60px 30px; text-align: center; }
+.daycare-ending svg { color: #4a1717; font-size: 2.3rem; margin-bottom: 20px; }
+.daycare-ending p { font-size: 1.2rem; font-style: italic; margin: 0; text-align: center; }
+@media (max-width: 768px) { .daycare-split { flex-direction: column; align-items: center; gap: 30px; } .daycare-right { align-items: center; padding: 10px 0; } .daycare-right h1 { font-size: 2.2rem; text-align: center; } .daycare-block { padding: 28px 20px; } .daycare-ending { margin-left: 20px; margin-right: 20px; padding: 40px 20px; } }

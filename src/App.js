@@ -17,6 +17,10 @@ import SocialCommunicationSkills from "./pages/SocialCommunicationSkills";
 import SpecialEducation from "./pages/SpecialEducation";
 import ParentCounseling from "./pages/ParentCounseling";
 import ProgrammeService from "./pages/ProgrammeService";
+import SpecialNeedsDayCare from "./pages/SpecialNeedsDayCare";
+import AutismTherapyServices from "./pages/AutismTherapyServices";
+import SchoolReadinessProgramme from "./pages/SchoolReadinessProgramme";
+import ADHDTherapySupport from "./pages/ADHDTherapySupport";
 import Donate from "./pages/Donate";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
@@ -105,10 +109,10 @@ function App() {
         <Route path="/services/parent-counseling" element={<ParentCounseling />} />
         <Route path="/services/social-communication-skills" element={<SocialCommunicationSkills />} />
         <Route path="/services/adl-life-skills" element={<ProgrammeService service={programmeServices.adl} />} />
-        <Route path="/services/special-needs-day-care" element={<ProgrammeService service={programmeServices.daycare} />} />
-        <Route path="/services/autism-therapy-services" element={<ProgrammeService service={programmeServices.autism} />} />
-        <Route path="/services/school-readiness-programme" element={<ProgrammeService service={programmeServices.school} />} />
-        <Route path="/services/adhd-therapy-support" element={<ProgrammeService service={programmeServices.adhd} />} />
+        <Route path="/services/special-needs-day-care" element={<SpecialNeedsDayCare />} />
+        <Route path="/services/autism-therapy-services" element={<AutismTherapyServices />} />
+        <Route path="/services/school-readiness-programme" element={<SchoolReadinessProgramme />} />
+        <Route path="/services/adhd-therapy-support" element={<ADHDTherapySupport />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/policies" element={<Policies />} />

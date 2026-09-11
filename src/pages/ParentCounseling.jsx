@@ -22,8 +22,8 @@ export default function ParentCounseling() {
       <section className="pc-feature">
         <div className="pc-feature-inner">
           <p>
-            Parenting a child with special needs is emotionally exhausting and comes with a mix of emotions like grief, self-doubt, and overwhelm. Many parents forget to prioritize their own well-being, leading to burnout and stress.
-          </p>
+              <b>Support for Parents. Strength for Families.</b><br/><br/>
+Parenting a child with special needs can feel overwhelming—our parent counselling and training provide practical guidance, emotional support, and strategies to help you feel more confident at home.          </p>
         </div>
       </section>
 
@@ -33,9 +33,14 @@ export default function ParentCounseling() {
         <div className="pc-block">
           <span className="pc-index">01</span>
           <div>
-            <h2>We Understand</h2>
+            <h2>Parent Training for Better Support at Home</h2>
             <p>
-              We understand what you are going through and we are here to guide you. Counseling is not about coping or being told what to do—it is about having a space where you are heard and supported. When parents feel regulated, understood, and emotionally supported, families function with greater ease, benefiting the child.
+              Parents play an important role in a child’s development. We guide
+              parents with practical strategies that can be used during everyday
+              routines, play and learning. Training may include supporting
+              communication, following routines, encouraging appropriate
+              behaviour, developing independence and responding calmly to
+              challenging situations.
             </p>
           </div>
         </div>
@@ -43,19 +48,41 @@ export default function ParentCounseling() {
         <div className="pc-block">
           <span className="pc-index">02</span>
           <div>
-            <h2>Intentional Support</h2>
+            <h2>ABA Guidance for Everyday Behaviour &amp; Learning</h2>
             <p>
-              Choosing counseling is not an admission of failure. It is an intentional step toward sustainability, self-compassion, and long-term well-being for both you and your child. Our sessions empower parents with tools, guidance, and emotional support to navigate challenges effectively.
+              For children who benefit from Applied Behavior Analysis (ABA)-based
+              strategies, we guide parents on how to use positive reinforcement,
+              clear instructions, prompting and consistent routines in everyday
+              situations. The focus is on helping children learn useful skills,
+              communicate their needs and participate more successfully at home
+              and in the community.
+            </p>
+          </div>
+        </div>
+
+        <div className="pc-block">
+          <span className="pc-index">03</span>
+          <div>
+            <h2>Counselling &amp; Guidance for Parents</h2>
+            <p>
+              Every child and family has different needs. Our parent counselling
+              and guidance focus on helping families understand their child’s
+              strengths, challenges and developmental needs, while providing
+              practical ways to support progress at home. We encourage parents to
+              work together with therapists so that skills learned during therapy
+              can be carried into everyday life.
             </p>
           </div>
         </div>
 
         <div className="pc-block pc-block-end">
-          <span className="pc-index">03</span>
+          <span className="pc-index">04</span>
           <div>
             <h2>Family-Centered Approach</h2>
             <p>
-              Our approach is family-centered, providing parents with strategies to cope, maintain emotional balance, and enhance the overall home environment. By supporting the parent, we ultimately contribute to the welfare and growth of the child.
+              We believe parents are an important part of a child’s developmental
+              journey. Our family-centered approach provides parents with practical
+              guidance to manage everyday challenges.
             </p>
           </div>
         </div>
@@ -66,7 +93,9 @@ export default function ParentCounseling() {
       <section className="pc-closing pc-soft-section">
         <div className="pc-closing-inner">
           <p>
-            Every step forward matters. By prioritizing self-care, guidance, and emotional regulation, parents can create a nurturing environment where children thrive and families flourish.
+            Every step forward matters. By prioritizing self-care, guidance, and
+            emotional regulation, parents can create a nurturing environment where
+            children thrive and families flourish.
           </p>
         </div>
       </section>

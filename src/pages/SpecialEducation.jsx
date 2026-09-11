@@ -18,8 +18,11 @@ export default function SpecialEducation() {
           <h1>Special Education</h1>
           <div className="se-intro">
             <p>
-              Special Education is a personalized approach to teaching children who have learning differences, developmental delays, or disabilities. It focuses on each child’s unique strengths and needs rather than following a one-size-fits-all curriculum. Through structured support, individualized plans, and specialized teaching methods, Special Education helps every child learn at their own pace and in their own style.
-            </p>
+<b>Special Education is personalised learning support for children who learn, communicate, behave or develop differently from other children.</b><br/><br/>
+
+Every child learns in their own way. Some children may need extra support with <b>learning, attention, communication, memory, understanding instructions, writing, reading, or completing everyday tasks.</b><br/><br/>
+
+Special Education helps identify <b>how a child learns best</b> and then uses teaching methods that match their individual needs.            </p>
           </div>
         </div>
       </div>
@@ -36,25 +39,35 @@ export default function SpecialEducation() {
           </ul>
         </div>
 
-        <div className="se-block se-dark">
-          <h2>Tools and Techniques Our Team Uses</h2>
-          <ul>
-            <li><FaCheckCircle className="se-icon" /> Visual supports like charts, schedules, picture cards.</li>
-            <li><FaCheckCircle className="se-icon" /> Multisensory teaching using touch, sound, and movement.</li>
-            <li><FaCheckCircle className="se-icon" /> Assistive technology such as speech apps, tablets, adaptive keyboards.</li>
-            <li><FaCheckCircle className="se-icon" /> Therapy integration including speech, occupational, and play therapy.</li>
-            <li><FaCheckCircle className="se-icon" /> Positive reinforcement and structured routines.</li>
-          </ul>
-        </div>
+       <div className="se-block se-dark">
+         <h2>Tools and Techniques Our Team Uses</h2>
+         <h3>Depending on the Child's Needs, Support May Focus On:</h3>
+         <ul>
+           <li><FaCheckCircle className="se-icon" /> Reading, writing and early academic skills</li>
+           <li><FaCheckCircle className="se-icon" /> Attention and concentration</li>
+           <li><FaCheckCircle className="se-icon" /> Following instructions and completing tasks</li>
+           <li><FaCheckCircle className="se-icon" /> Memory and understanding concepts</li>
+           <li><FaCheckCircle className="se-icon" /> Communication and classroom participation</li>
+           <li><FaCheckCircle className="se-icon" /> Learning through visual aids and hands-on activities</li>
+           <li><FaCheckCircle className="se-icon" /> Independent learning</li>
+           <li><FaCheckCircle className="se-icon" /> Social and classroom skills</li>
+           <li><FaCheckCircle className="se-icon" /> Confidence and everyday independence</li>
+         </ul>
+       </div>
 
         <div className="se-block se-light">
           <h2>How It Helps the Child</h2>
           <ul>
-            <li><FaCheckCircle className="se-icon" /> Develop essential academic skills.</li>
-            <li><FaCheckCircle className="se-icon" /> Strengthen communication, attention, and social interaction.</li>
-            <li><FaCheckCircle className="se-icon" /> Build confidence and self-esteem.</li>
-            <li><FaCheckCircle className="se-icon" /> Gain independence in daily life and learning tasks.</li>
-            <li><FaCheckCircle className="se-icon" /> Feel included, supported, and celebrated.</li>
+{/*             <li><FaCheckCircle className="se-icon" /> Develop essential academic skills.</li> */}
+{/*             <li><FaCheckCircle className="se-icon" /> Strengthen communication, attention, and social interaction.</li> */}
+{/*             <li><FaCheckCircle className="se-icon" /> Build confidence and self-esteem.</li> */}
+{/*             <li><FaCheckCircle className="se-icon" /> Gain independence in daily life and learning tasks.</li> */}
+{/*             <li><FaCheckCircle className="se-icon" /> Feel included, supported, and celebrated.</li> */}
+Instead of expecting every child to learn in the same way, Special Education <b>adapts the teaching approach to the child</b> with IEPs.<br/><br/>
+
+A child may learn better through <b>visuals, repetition, hands-on activities, simple instructions, structured routines or individualised teaching( One on One Therapy)</b><br/><br/>
+
+Our goal is help them become <b>more confident, independent and successful in everyday learning.</b>
           </ul>
         </div>
 

@@ -27,6 +27,13 @@
   display: block;
 }
 
+/* Keep the desktop title aligned with the top of the portrait hero image. */
+@media (min-width: 769px) {
+  .se-right {
+    justify-content: flex-start;
+  }
+}
+
 .se-right {
   flex: 1;
   min-width: 320px;
@@ -53,13 +60,13 @@
 /* CONTENT SECTION */
 .se-content {
   max-width: 980px;
-  margin: 90px auto 0;
-  padding: 0 20px;
+  margin: 50px auto 0;
+  padding: 0 24px;
 }
 
 .se-block {
-  padding: 38px 28px;
-  margin-bottom: 45px;
+  padding: 35px 28px;
+  margin-bottom: 20px;
   border-radius: 14px;
   background: #fffaf0;
   box-shadow: 0 4px 14px rgba(0,0,0,0.04);
@@ -130,10 +137,22 @@
   }
 
   .se-block {
-    padding: 26px 22px;
+    padding: 28px 20px;
   }
 
   .se-ending {
     padding: 45px 22px;
   }
+}
+
+/* Keep the content compact on laptop screens without affecting the phone layout. */
+@media (min-width: 769px) and (max-width: 1440px) {
+  .se-right {
+    padding: 32px 28px;
+  }
+
+  .se-right h1 {
+    margin-bottom: 16px;
+  }
+
 }

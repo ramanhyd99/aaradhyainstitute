@@ -37,7 +37,7 @@ export default function Home() {
       {/* ================= HERO ================= */}
       <section className="hero-banner">
         <div className="hero-content">
-          <h2>Aaradhya Speech & Therapy Centre </h2>
+          <h2>Aaradhya Speech &amp; Therapy Centre — Leading Child Development &amp; Speech Therapy Centre</h2>
           <p>
             Provides expert, multidisciplinary care. We empower individuals through personalized speech, behavioral, occupational therapies, and social communication skills fostering independence and growth in a supportive environment --- in person & virtual
           </p>
@@ -78,6 +78,7 @@ export default function Home() {
 
         <div className="services-grid">
           {[
+            { key: "child-development", img: "early.jpg", label: "Child Development Services", path: "/services/child-development-centre" },
             { key: "speech", img: "speech.jpg", label: "Speech & Language Therapy", path: "/services/speech-language-therapy" },
             { key: "occupational", img: "occupational.jpg", label: "Occupational Therapy", path: "/services/occupational-therapy" },
             { key: "behavior", img: "behavior.jpg", label: "Behavior Management", path: "/services/behavior-management" },
@@ -87,7 +88,7 @@ export default function Home() {
             { key: "physio", img: "physio.jpg", label: "Physiotherapy", path: "/services/physiotherapy" },
             { key: "social", img: "social.jpg", label: "Social Communication Skills", path: "/services/social-communication-skills" },
             { key: "adl", img: "occupational.jpg", label: "ADL & Life Skills", path: "/services/adl-life-skills" },
-            { key: "daycare", img: "group.jpg", label: "Special Needs Day Care", path: "/services/special-needs-day-care" },
+            { key: "daycare", img: "group.jpg", label: "Special Needs Day Care and Special School", path: "/services/special-needs-day-care" },
             { key: "autism", img: "early.jpg", label: "Autism Therapy Services", path: "/services/autism-therapy-services" },
             { key: "school", img: "special.jpg", label: "School Readiness Programme", path: "/services/school-readiness-programme" },
             { key: "adhd", img: "behavior.jpg", label: "ADHD Therapy & Support", path: "/services/adhd-therapy-support" },

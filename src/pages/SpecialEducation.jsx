@@ -17,6 +17,7 @@ export default function SpecialEducation() {
         <div className="se-right">
           <h1>Special Education</h1>
           <div className="se-intro">
+            <p>Our special education program focuses on inclusive education, bridging developmental gaps, and providing customized academic support.</p>
             <p>
 <b>Special Education is personalised learning support for children who learn, communicate, behave or develop differently from other children.</b><br/><br/>
 

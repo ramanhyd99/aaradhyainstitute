@@ -13,6 +13,7 @@ import OccupationalTherapy from "./pages/OccupationalTherapy";
 import Physiotherapy from "./pages/Physiotherapy";
 import BehaviorManagement from "./pages/BehaviorManagement";
 import EarlyIntervention from "./pages/EarlyIntervention";
+import ChildDevelopmentCentre from "./pages/ChildDevelopmentCentre";
 import SocialCommunicationSkills from "./pages/SocialCommunicationSkills";
 import SpecialEducation from "./pages/SpecialEducation";
 import ParentCounseling from "./pages/ParentCounseling";
@@ -40,11 +41,11 @@ const programmeServices = {
     ending: "Learn. Practise. Participate. Become independent."
   },
   daycare: {
-    title: "Special Needs Day Care",
+    title: "Special Needs Day Care and Special School",
     image: "/images/group.jpg",
-    intro: "Are you looking for a structured day-care environment where your child can learn, participate, communicate and develop everyday skills? At Aaradhya Speech & Therapy Centre, our Special Needs Day Care programme provides a supportive environment designed around the individual developmental needs of each child. We create opportunities for learning throughout the day.",
+    intro: "Are you looking for a structured day-care environment where your child can learn, participate, communicate and develop everyday skills? At Aaradhya Speech & Therapy Centre, our Special Needs Day Care and Special School programme provides a supportive environment designed around the individual developmental needs of each child. We create opportunities for learning throughout the day.",
     blocks: [
-      { title: "What Does Our Special Needs Day Care Include?", text: "Our programme may include activities that support:", items: ["Communication & language", "Learning & cognitive development", "Social interaction", "ADL & life skills", "Behaviour & attention"] },
+      { title: "What Does Our Special Needs Day Care and Special School Include?", text: "Our programme may include activities that support:", items: ["Communication & language", "Learning & cognitive development", "Social interaction", "ADL & life skills", "Behaviour & attention"] },
       { title: "A Structured Day Helps Children Know What Comes Next", text: "Children often participate more comfortably when daily activities follow a predictable structure. A typical day may include learning activities, play, snack and self-care routines." },
       { title: "More Than Day Care", text: "We believe a meaningful day should provide opportunities to communicate, learn, play, interact and practise." }
     ],
@@ -100,6 +101,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/services/child-development-centre" element={<ChildDevelopmentCentre />} />
         <Route path="/services/speech-language-therapy" element={<SpeechLanguageTherapy />} />
         <Route path="/services/occupational-therapy" element={<OccupationalTherapy />} />
         <Route path="/services/physiotherapy" element={<Physiotherapy />} />

@@ -51,6 +51,17 @@
   flex-wrap: wrap;
 }
 
+.booknow-section .services-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.booknow-section .services-list a:hover,
+.booknow-section .services-list a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Buttons */
 .booknow-buttons button {
   display: flex;

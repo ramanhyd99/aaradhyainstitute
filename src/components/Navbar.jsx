@@ -73,6 +73,7 @@ const Navbar = () => {
                 <FaChevronDown className={`dropdown-arrow ${dropdownOpen ? "rotate" : ""}`} />
               </div>
               <ul className="fade-dropdown">
+                <li><Link to="/services/child-development-centre" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Child Development Centre</Link></li>
                 <li><Link to="/services/speech-language-therapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Speech & Language Therapy</Link></li>
                 <li><Link to="/services/occupational-therapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Occupational Therapy</Link></li>
                 <li><Link to="/services/physiotherapy" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Physiotherapy</Link></li>
@@ -82,7 +83,7 @@ const Navbar = () => {
                 <li><Link to="/services/parent-counseling" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Parent Training & Counselling Support</Link></li>
                 <li><Link to="/services/social-communication-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Social Communication Skills</Link></li>
                 <li><Link to="/services/adl-life-skills" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>ADL &amp; Life Skills</Link></li>
-                <li><Link to="/services/special-needs-day-care" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Needs Day Care</Link></li>
+                <li><Link to="/services/special-needs-day-care" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Special Needs Day Care and Special School</Link></li>
                 <li><Link to="/services/autism-therapy-services" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>Autism Therapy Services</Link></li>
                 <li><Link to="/services/school-readiness-programme" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>School Readiness Programme</Link></li>
                 <li><Link to="/services/adhd-therapy-support" onClick={() => {setMenuOpen(false); setDropdownOpen(false);}}>ADHD Therapy &amp; Support</Link></li>

@@ -1,0 +1,25 @@
+.child-development-page .ei-intro {
+  flex-direction: column;
+}
+
+.child-development-page .ei-left,
+.child-development-page .ei-right {
+  min-width: 0;
+  width: 100%;
+}
+
+.child-development-page .ei-content a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+.child-development-page .ei-block > p + ul {
+  margin-top: 18px;
+}
+
+.child-development-page .ei-block h3 {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 24px 0 12px;
+}

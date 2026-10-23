@@ -5,6 +5,11 @@ import "./Services.css";
 export default function Services() {
  const services = [
    {
+    title: "Child Development Centre",
+    link: "/services/child-development-centre",
+    desc: "Comprehensive, multidisciplinary support for your child’s development."
+   },
+   {
     title: "Speech & Language Therapy",
     link: "/services/speech-language-therapy",
     desc: "Improving communication, speech clarity, and language skills."
@@ -35,7 +40,7 @@ export default function Services() {
     desc: "Building practical everyday skills for greater independence."
   },
   {
-    title: "Special Needs Day Care",
+    title: "Special Needs Day Care and Special School",
     link: "/services/special-needs-day-care",
     desc: "Structured learning, play and support throughout the day."
   },
